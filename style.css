@@ -13,6 +13,7 @@
 body {
   background-color: #f7f4ef;
   color: var(--primary-brown);
+  overflow-x: hidden;
 }
 
 .container {
@@ -280,6 +281,7 @@ footer {
 
   .hobby-list {
     flex-direction: column;
+    gap: 24px;
   }
 
   .hobby-list li {
